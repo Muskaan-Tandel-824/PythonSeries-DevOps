@@ -3,8 +3,4 @@ for name, status in resources.items():
     if status == "unused":
         print(f"Deleting {name}")
 
-# resources = {"EC2-1": "unused", "EC2-2": "active", "EC2-3": "unused"}
 
-# for name, status in resources.items():
-#     if status == "unused":
-#         print(f"Deleting {name}...")
