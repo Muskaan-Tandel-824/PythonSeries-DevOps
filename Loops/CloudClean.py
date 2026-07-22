@@ -3,4 +3,3 @@ for name, status in resources.items():
     if status == "unused":
         print(f"Deleting {name}")
 
-
